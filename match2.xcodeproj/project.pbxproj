@@ -12,6 +12,9 @@
 		9BCDE7741F729F230026E9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDE7721F729F230026E9EC /* Main.storyboard */; };
 		9BCDE7761F729F230026E9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDE7751F729F230026E9EC /* Assets.xcassets */; };
 		9BCDE7791F729F230026E9EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDE7771F729F230026E9EC /* LaunchScreen.storyboard */; };
+		9BCDE7861F72AFBF0026E9EC /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDE7831F72AFBF0026E9EC /* front.png */; };
+		9BCDE7871F72AFBF0026E9EC /* panda.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDE7841F72AFBF0026E9EC /* panda.png */; };
+		9BCDE7881F72AFBF0026E9EC /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDE7851F72AFBF0026E9EC /* penguin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9BCDE7751F729F230026E9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BCDE7781F729F230026E9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BCDE77A1F729F230026E9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCDE7831F72AFBF0026E9EC /* front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = front.png; path = images/front.png; sourceTree = "<group>"; };
+		9BCDE7841F72AFBF0026E9EC /* panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = panda.png; path = images/panda.png; sourceTree = "<group>"; };
+		9BCDE7851F72AFBF0026E9EC /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = penguin.png; path = images/penguin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		9BCDE76D1F729F230026E9EC /* match2 */ = {
 			isa = PBXGroup;
 			children = (
+				9BCDE7821F72AF950026E9EC /* images */,
 				9BCDE76E1F729F230026E9EC /* AppDelegate.swift */,
 				9BCDE7701F729F230026E9EC /* ViewController.swift */,
 				9BCDE7721F729F230026E9EC /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				9BCDE77A1F729F230026E9EC /* Info.plist */,
 			);
 			path = match2;
+			sourceTree = "<group>";
+		};
+		9BCDE7821F72AF950026E9EC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDE7831F72AFBF0026E9EC /* front.png */,
+				9BCDE7841F72AFBF0026E9EC /* panda.png */,
+				9BCDE7851F72AFBF0026E9EC /* penguin.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCDE7881F72AFBF0026E9EC /* penguin.png in Resources */,
+				9BCDE7871F72AFBF0026E9EC /* panda.png in Resources */,
 				9BCDE7791F729F230026E9EC /* LaunchScreen.storyboard in Resources */,
+				9BCDE7861F72AFBF0026E9EC /* front.png in Resources */,
 				9BCDE7761F729F230026E9EC /* Assets.xcassets in Resources */,
 				9BCDE7741F729F230026E9EC /* Main.storyboard in Resources */,
 			);
