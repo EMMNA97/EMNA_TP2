@@ -12,20 +12,57 @@ class ViewController: UIViewController {
     @IBOutlet weak var front_3: UIView!
     @IBOutlet weak var back_4: UIView!
     @IBOutlet weak var front_4: UIView!
+    @IBOutlet weak var back_5: UIView!
+    @IBOutlet weak var front_5: UIView!
+    @IBOutlet weak var back_6: UIView!
+    @IBOutlet weak var front_6: UIView!
+    @IBOutlet weak var back_7: UIView!
+    @IBOutlet weak var front_7: UIView!
+    @IBOutlet weak var back_8: UIView!
+    @IBOutlet weak var front_8: UIView!
+    @IBOutlet weak var back_9: UIView!
+    @IBOutlet weak var front_9: UIView!
+    @IBOutlet weak var back_10: UIView!
+    @IBOutlet weak var front_10: UIView!
+    @IBOutlet weak var back_11: UIView!
+    @IBOutlet weak var front_11: UIView!
+    @IBOutlet weak var back_12: UIView!
+    @IBOutlet weak var front_12: UIView!
+    
     
     @IBOutlet weak var imgView1: UIImageView!
     @IBOutlet weak var imgView2: UIImageView!
     @IBOutlet weak var imgView3: UIImageView!
     @IBOutlet weak var imgView4: UIImageView!
+    @IBOutlet weak var imgView5: UIImageView!
+    @IBOutlet weak var imgView6: UIImageView!
+    @IBOutlet weak var imgView7: UIImageView!
+    @IBOutlet weak var imgView8: UIImageView!
+    @IBOutlet weak var imgView9: UIImageView!
+    @IBOutlet weak var imgView10: UIImageView!
+    @IBOutlet weak var imgView11: UIImageView!
+    @IBOutlet weak var imgView12: UIImageView!
+    
     
     @IBOutlet weak var card1: UIView!
     @IBOutlet weak var card2: UIView!
     @IBOutlet weak var card3: UIView!
     @IBOutlet weak var card4: UIView!
+    @IBOutlet weak var card5: UIView!
+    @IBOutlet weak var card6: UIView!
+    @IBOutlet weak var card7: UIView!
+    @IBOutlet weak var card8: UIView!
+    @IBOutlet weak var card9: UIView!
+    @IBOutlet weak var card10: UIView!
+    @IBOutlet weak var card11: UIView!
+    @IBOutlet weak var card12: UIView!
+    
     
     
     var arrayOfImageViews: [UIImageView]!
-    var arrayOfAnimalNames: [String]!
+    var arrayOfAnimalNames = ["peppaPig2.png", "elephant2.png", "peppaPig2.png",
+    "elephant2.png" , "zebra2.png", "zebra2.png", "cat2.png", "cat2.png", "rabbit2.png", "rabbit2.png","dog2.png", "dog2.png"  ]
+ 
     var arrayOfRandomAnimalNames = [String]()
     
     var arrayOfShowingBacks = [UIView]()
@@ -34,12 +71,14 @@ class ViewController: UIViewController {
     var arrayChosenCards = [String]()
     var arrayChosenViews = [UIView]()
     
+    
+    
     //------------------------------
     override func viewDidLoad() {
         super.viewDidLoad()
-        arrayOfImageViews = [ imgView1, imgView2, imgView3, imgView4 ]
-        arrayOfAnimalNames = ["panda.png", "penguin.png", "panda.png",
-                              "penguin.png"]
+        arrayOfImageViews = [ imgView1, imgView2, imgView3, imgView4, imgView5, imgView6, imgView7, imgView8, imgView9, imgView10, imgView11, imgView12, ]
+        
+       
         randomAnimals()
         setImagesToCard()
     }
@@ -87,6 +126,75 @@ class ViewController: UIViewController {
             arrayOfHidingFronts.append(front_4)
             arrayChosenCards.append(arrayOfRandomAnimalNames[3])
             arrayChosenViews.append(card4)
+        case 4 :
+            flipCard(from: front_5, to: back_5)
+            arrayOfShowingBacks.append(back_5)
+            arrayOfHidingFronts.append(front_5)
+            arrayChosenCards.append(arrayOfRandomAnimalNames[3])
+            arrayChosenViews.append(card5)
+        case 5 :
+            flipCard(from: front_6, to: back_6)
+            arrayOfShowingBacks.append(back_6)
+            arrayOfHidingFronts.append(front_6)
+            arrayChosenCards.append(arrayOfRandomAnimalNames[3])
+            arrayChosenViews.append(card6)
+        case 6 :
+            flipCard(from: front_7, to: back_7)
+            arrayOfShowingBacks.append(back_7)
+            arrayOfHidingFronts.append(front_7)
+            arrayChosenCards.append(arrayOfRandomAnimalNames[3])
+            arrayChosenViews.append(card7)
+        case 7 :
+            flipCard(from: front_8, to: back_8)
+            arrayOfShowingBacks.append(back_8)
+            arrayOfHidingFronts.append(front_8)
+            arrayChosenCards.append(arrayOfRandomAnimalNames[3])
+            arrayChosenViews.append(card8)
+        case 8 :
+            flipCard(from: front_9, to: back_9)
+            arrayOfShowingBacks.append(back_9)
+            arrayOfHidingFronts.append(front_9)
+            arrayChosenCards.append(arrayOfRandomAnimalNames[3])
+            arrayChosenViews.append(card9)
+        case 9 :
+            flipCard(from: front_10, to: back_10)
+            arrayOfShowingBacks.append(back_10)
+            arrayOfHidingFronts.append(front_10)
+            arrayChosenCards.append(arrayOfRandomAnimalNames[3])
+            arrayChosenViews.append(card10)
+        case 10 :
+            flipCard(from: front_11, to: back_11)
+            arrayOfShowingBacks.append(back_11)
+            arrayOfHidingFronts.append(front_11)
+            arrayChosenCards.append(arrayOfRandomAnimalNames[3])
+            arrayChosenViews.append(card11)
+        case 11 :
+            flipCard(from: front_12, to: back_12)
+            arrayOfShowingBacks.append(back_12)
+            arrayOfHidingFronts.append(front_12)
+            arrayChosenCards.append(arrayOfRandomAnimalNames[3])
+            arrayChosenViews.append(card12)
+     /*   case 12 :
+            flipCard(from: front_, to: back_4)
+            arrayOfShowingBacks.append(back_4)
+            arrayOfHidingFronts.append(front_4)
+            arrayChosenCards.append(arrayOfRandomAnimalNames[3])
+            arrayChosenViews.append(card4)
+        case 13 :
+            flipCard(from: front_4, to: back_4)
+            arrayOfShowingBacks.append(back_4)
+            arrayOfHidingFronts.append(front_4)
+            arrayChosenCards.append(arrayOfRandomAnimalNames[3])
+            arrayChosenViews.append(card4)  */
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
         default :
             break
@@ -154,8 +262,8 @@ class ViewController: UIViewController {
         card2.isHidden = false
         card3.isHidden = false
         card4.isHidden = false
-        arrayOfAnimalNames = ["panda.png", "penguin.png", "panda.png",
-                              "penguin.png"]
+        arrayOfAnimalNames = ["peppaPig2.png", "elephant2.png", "peppaPig2.png",
+                              "elephant2.png"]
         
         arrayOfRandomAnimalNames = []
         
