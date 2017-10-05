@@ -90,6 +90,7 @@ class ViewController: UIViewController {
     
     
     //---------------------------
+    // fonction ayant toutes les propriétés des cartes
     @IBAction func showCard(_ sender: UIButton) {
         
         if arrayOfHidingFronts.count == 2 {
@@ -177,7 +178,7 @@ class ViewController: UIViewController {
         verification()
     }
     //===========================
-    
+    // attribuer de maniére hiérarchique des cartes dans des tableaux
     func randomAnimals() {
         let numberOfAnimals = arrayOfAnimalNames.count
         for _ in 0..<numberOfAnimals {
@@ -188,6 +189,7 @@ class ViewController: UIViewController {
     }
     
     //---------------------------
+    // attribuer des images aux cartes
     func setImagesToCard() {
         var number = 0
         for imgView in arrayOfImageViews {
@@ -205,6 +207,7 @@ class ViewController: UIViewController {
     }
     
     //================================
+    // retourner les cartes
     @objc func reflip() {
         for index in 0..<arrayOfShowingBacks.count {
             flipCard(from: arrayOfShowingBacks[index], to: arrayOfHidingFronts[index])
@@ -212,7 +215,8 @@ class ViewController: UIViewController {
         arrayOfShowingBacks = []
         arrayOfHidingFronts = []
     }
-    
+    // enlevement des views si deux cartes sont similaires
+    // possibilité de changer la fonction pour garder les deux photos similaires !!! (demander au prof )
     func verification() {
         if arrayChosenCards.count == 2 {
             if arrayChosenCards [0] == arrayChosenCards [1] {
@@ -231,6 +235,7 @@ class ViewController: UIViewController {
         arrayChosenViews = []
     }
     //====================
+    // recommencer le jeu a nouveau
     @IBAction func reset(_ sender: UIButton) {
         card1.isHidden = false
         card2.isHidden = false
@@ -246,8 +251,8 @@ class ViewController: UIViewController {
         card12.isHidden = false
         
         
-      
-
+        
+        
         
         randomAnimals()
         

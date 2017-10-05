@@ -44,6 +44,10 @@
 		9B2B52441F8536970064309C /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2B52261F8536970064309C /* Icon-256.png */; };
 		9B2B52451F8536970064309C /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2B52271F8536970064309C /* Icon-512.png */; };
 		9B2B52461F8536970064309C /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2B52281F8536970064309C /* Icon-1024.png */; };
+		9B2B52481F8547A10064309C /* magarderie.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2B52471F8547A10064309C /* magarderie.png */; };
+		9B2B524A1F856D390064309C /* gardee.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2B52491F856D390064309C /* gardee.png */; };
+		9B2B524C1F856F910064309C /* PeppaPaires.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2B524B1F856F910064309C /* PeppaPaires.png */; };
+		9B2B524E1F8587CB0064309C /* theme.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2B524D1F8587CB0064309C /* theme.png */; };
 		9BBBFDE71F7D4BF900190676 /* cat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBBFDDF1F7D4BF900190676 /* cat2.png */; };
 		9BBBFDE91F7D4BF900190676 /* elephant2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBBFDE11F7D4BF900190676 /* elephant2.png */; };
 		9BBBFDEA1F7D4BF900190676 /* Image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBBFDE21F7D4BF900190676 /* Image3.png */; };
@@ -96,6 +100,10 @@
 		9B2B52261F8536970064309C /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-256.png"; path = "images/Icon-256.png"; sourceTree = "<group>"; };
 		9B2B52271F8536970064309C /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-512.png"; path = "images/Icon-512.png"; sourceTree = "<group>"; };
 		9B2B52281F8536970064309C /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-1024.png"; path = "images/Icon-1024.png"; sourceTree = "<group>"; };
+		9B2B52471F8547A10064309C /* magarderie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magarderie.png; path = images/magarderie.png; sourceTree = "<group>"; };
+		9B2B52491F856D390064309C /* gardee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gardee.png; path = images/gardee.png; sourceTree = "<group>"; };
+		9B2B524B1F856F910064309C /* PeppaPaires.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PeppaPaires.png; path = images/PeppaPaires.png; sourceTree = "<group>"; };
+		9B2B524D1F8587CB0064309C /* theme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = theme.png; path = images/theme.png; sourceTree = "<group>"; };
 		9BBBFDDF1F7D4BF900190676 /* cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat2.png; path = images/cat2.png; sourceTree = "<group>"; };
 		9BBBFDE11F7D4BF900190676 /* elephant2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = elephant2.png; path = images/elephant2.png; sourceTree = "<group>"; };
 		9BBBFDE21F7D4BF900190676 /* Image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image3.png; path = images/Image3.png; sourceTree = "<group>"; };
@@ -156,6 +164,10 @@
 		9BCDE7821F72AF950026E9EC /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9B2B524D1F8587CB0064309C /* theme.png */,
+				9B2B524B1F856F910064309C /* PeppaPaires.png */,
+				9B2B52491F856D390064309C /* gardee.png */,
+				9B2B52471F8547A10064309C /* magarderie.png */,
 				9B2B520B1F8536970064309C /* Icon-16.png */,
 				9B2B520C1F8536970064309C /* Icon-20.png */,
 				9B2B520D1F8536970064309C /* Icon-29.png */,
@@ -240,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9BCDE7661F729F230026E9EC /* Build configuration list for PBXProject "match2" */;
+			buildConfigurationList = 9BCDE7661F729F230026E9EC /* Build configuration list for PBXProject "match" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -267,6 +279,7 @@
 				9B0953951F829956007A002E /* peppafont2.png in Resources */,
 				9BBBFDEC1F7D4BF900190676 /* peppaPig2.png in Resources */,
 				9BBBFDE71F7D4BF900190676 /* cat2.png in Resources */,
+				9B2B524C1F856F910064309C /* PeppaPaires.png in Resources */,
 				9BCDE7791F729F230026E9EC /* LaunchScreen.storyboard in Resources */,
 				9B2B52321F8536970064309C /* Icon-58.png in Resources */,
 				9B0953991F82A084007A002E /* peppaaaaaa.png in Resources */,
@@ -281,9 +294,11 @@
 				9B2B523F1F8536970064309C /* Icon-152.png in Resources */,
 				9B2B52361F8536970064309C /* Icon-76.png in Resources */,
 				9B2B52351F8536970064309C /* Icon-72.png in Resources */,
+				9B2B52481F8547A10064309C /* magarderie.png in Resources */,
 				9BBBFDEB1F7D4BF900190676 /* peppahome.png in Resources */,
 				9BCDE7761F729F230026E9EC /* Assets.xcassets in Resources */,
 				9BCDE7741F729F230026E9EC /* Main.storyboard in Resources */,
+				9B2B524E1F8587CB0064309C /* theme.png in Resources */,
 				9B2B52301F8536970064309C /* Icon-55.png in Resources */,
 				9B2B523E1F8536970064309C /* Icon-144.png in Resources */,
 				9B2B523C1F8536970064309C /* Icon-120.png in Resources */,
@@ -304,6 +319,7 @@
 				9B2B522D1F8536970064309C /* Icon-40.png in Resources */,
 				9B2B52421F8536970064309C /* Icon-180.png in Resources */,
 				9B2B52371F8536970064309C /* Icon-80.png in Resources */,
+				9B2B524A1F856D390064309C /* gardee.png in Resources */,
 				9B2B52381F8536970064309C /* Icon-87.png in Resources */,
 				9B2B52341F8536970064309C /* Icon-64.png in Resources */,
 				9B2B52331F8536970064309C /* Icon-60.png in Resources */,
@@ -467,7 +483,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BCDE7661F729F230026E9EC /* Build configuration list for PBXProject "match2" */ = {
+		9BCDE7661F729F230026E9EC /* Build configuration list for PBXProject "match" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BCDE77B1F729F230026E9EC /* Debug */,

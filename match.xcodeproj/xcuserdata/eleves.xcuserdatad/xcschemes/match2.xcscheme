@@ -17,7 +17,7 @@
                BlueprintIdentifier = "9BCDE76A1F729F230026E9EC"
                BuildableName = "match2.app"
                BlueprintName = "match2"
-               ReferencedContainer = "container:match2.xcodeproj">
+               ReferencedContainer = "container:match.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "9BCDE76A1F729F230026E9EC"
             BuildableName = "match2.app"
             BlueprintName = "match2"
-            ReferencedContainer = "container:match2.xcodeproj">
+            ReferencedContainer = "container:match.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "9BCDE76A1F729F230026E9EC"
             BuildableName = "match2.app"
             BlueprintName = "match2"
-            ReferencedContainer = "container:match2.xcodeproj">
+            ReferencedContainer = "container:match.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "9BCDE76A1F729F230026E9EC"
             BuildableName = "match2.app"
             BlueprintName = "match2"
-            ReferencedContainer = "container:match2.xcodeproj">
+            ReferencedContainer = "container:match.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

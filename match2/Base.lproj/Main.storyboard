@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="i8t-OC-BYR">
-    <device id="ipad9_7" orientation="portrait">
+    <device id="ipad12_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,28 +18,36 @@
                         <viewControllerLayoutGuide type="bottom" id="h07-Us-27H"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HQg-lj-Ouf">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="peppaaaaaa.png" translatesAutoresizingMaskIntoConstraints="NO" id="jGb-Xe-ASp">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="-51" y="-65" width="1122" height="1456"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWC-pZ-ybw">
-                                <rect key="frame" x="197" y="223" width="374" height="224"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="267" y="1103" width="546" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="playbutton2.png"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="Dkw-dW-3JP"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gardee.png" translatesAutoresizingMaskIntoConstraints="NO" id="Asb-qL-glH">
+                                <rect key="frame" x="0.0" y="12" width="1024" height="395"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PeppaPaires.png" translatesAutoresizingMaskIntoConstraints="NO" id="dmo-Ph-HaR">
+                                <rect key="frame" x="336" y="339" width="348" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rlc-da-e3Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-870" y="-2208"/>
+            <point key="canvasLocation" x="-870.703125" y="-2208.4919472913616"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -50,37 +58,37 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="peppafont2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vxw-Ec-HXM">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6yj-2F-ez0" userLabel="card1">
-                                <rect key="frame" x="72" y="132" width="150" height="225"/>
+                                <rect key="frame" x="96" y="176" width="200" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8F3-D2-OG1" userLabel="faceArriere">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="peppaPig2.png" translatesAutoresizingMaskIntoConstraints="NO" id="n53-r0-x3Q" userLabel="peppaPig">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8RZ-r7-sHY" userLabel="faceDevant">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="jE4-wM-3Ad" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qE-n3-MVE">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jzc-dB-JqO"/>
@@ -91,29 +99,29 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Fe-Xu-rAt" userLabel="card2">
-                                <rect key="frame" x="230" y="132" width="150" height="225"/>
+                                <rect key="frame" x="307" y="176" width="200" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X7n-Va-g1p" userLabel="faceArriere">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="peppaPig2.png" translatesAutoresizingMaskIntoConstraints="NO" id="RKg-9s-bXx" userLabel="peppaPig">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8lx-c7-snY" userLabel="faceDevant">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="rnq-qJ-ibM" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNw-Lj-iGD">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="250"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="333"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GDE-OM-cwH"/>
@@ -124,29 +132,29 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="78u-sP-npJ" userLabel="card3">
-                                <rect key="frame" x="388" y="132" width="150" height="225"/>
+                                <rect key="frame" x="517" y="176" width="200" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kM3-wU-CBT" userLabel="faceArriere">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="elephant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="w9B-oT-8AC" userLabel="elephant">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uEP-yA-Kz2" userLabel="faceDevant">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mk0-jc-kw9" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7G-PX-ZmW">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qpk-dC-j9J"/>
@@ -157,29 +165,29 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EP5-p5-OC1" userLabel="card4">
-                                <rect key="frame" x="546" y="132" width="150" height="225"/>
+                                <rect key="frame" x="728" y="176" width="200" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1rE-e5-YwS" userLabel="faceArriere">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="elephant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="brd-qA-XV3" userLabel="elephant">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iZd-sB-SrS" userLabel="faceDevant">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="f4j-Vz-X0Q" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pni-yj-9EB">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vx2-p5-RwG"/>
@@ -190,29 +198,29 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vyz-6F-Zes" userLabel="card5">
-                                <rect key="frame" x="72" y="427" width="150" height="225"/>
+                                <rect key="frame" x="96" y="570" width="200" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2zk-yC-yoJ" userLabel="faceArriere">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zebra2.png" translatesAutoresizingMaskIntoConstraints="NO" id="TlC-ec-wK7" userLabel="zebra">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LJA-Is-hvN" userLabel="faceDevant">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="nSF-YG-YEV" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEj-Av-sOt">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bia-Pm-zSl"/>
@@ -223,29 +231,29 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z27-i3-pFo" userLabel="card6">
-                                <rect key="frame" x="230" y="427" width="150" height="225"/>
+                                <rect key="frame" x="307" y="570" width="200" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hSF-yt-oen" userLabel="faceArriere">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zebra2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jbN-eh-ODa" userLabel="zebra">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2bH-Bs-Usp" userLabel="faceDevant">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="sGe-OQ-wx7" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRV-uE-gIk">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="250"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="333"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fUp-ef-l3Y"/>
@@ -257,29 +265,29 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0dk-p1-QzB" userLabel="card7">
-                                <rect key="frame" x="388" y="427" width="150" height="225"/>
+                                <rect key="frame" x="517" y="570" width="200" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2xo-gA-JVZ" userLabel="faceArriere">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat2.png" translatesAutoresizingMaskIntoConstraints="NO" id="rgN-hj-ZEr" userLabel="cat">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXR-5g-gRG" userLabel="faceDevant">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qmg-g3-aH4" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZa-4w-rtR">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZGq-dE-mqH"/>
@@ -290,29 +298,29 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iu7-50-Xzg" userLabel="card8">
-                                <rect key="frame" x="546" y="427" width="150" height="225"/>
+                                <rect key="frame" x="728" y="570" width="200" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Afc-I5-FnA" userLabel="faceArriere">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat2.png" translatesAutoresizingMaskIntoConstraints="NO" id="dta-qb-p6I" userLabel="cat">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UD7-3B-Xye" userLabel="faceDevant">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="zWG-k8-iew" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gxq-yu-Nvy">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wTi-7w-iu7"/>
@@ -323,29 +331,29 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hib-1d-R0W" userLabel="card9">
-                                <rect key="frame" x="72" y="693" width="150" height="225"/>
+                                <rect key="frame" x="96" y="936" width="200" height="301"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UC3-Bt-BwR" userLabel="faceArriere">
-                                        <rect key="frame" x="1" y="-1" width="148" height="228"/>
+                                        <rect key="frame" x="1" y="-1" width="198" height="304"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rabbit2.png" translatesAutoresizingMaskIntoConstraints="NO" id="xzL-8L-xUk" userLabel="rabbit">
-                                                <rect key="frame" x="0.0" y="0.0" width="148" height="228"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="198" height="304"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wRv-qO-VLQ" userLabel="faceDevant">
-                                        <rect key="frame" x="1" y="-1" width="148" height="228"/>
+                                        <rect key="frame" x="1" y="-1" width="198" height="304"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="82n-pn-AXb" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="148" height="228"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="198" height="304"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoN-aC-ayE">
-                                                <rect key="frame" x="0.0" y="0.0" width="192" height="306"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="256" height="408"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GoW-gs-YXv"/>
@@ -356,29 +364,29 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BcZ-3m-feO" userLabel="card10">
-                                <rect key="frame" x="230" y="693" width="150" height="225"/>
+                                <rect key="frame" x="307" y="936" width="200" height="301"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1oJ-gT-zHN" userLabel="faceArriere">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" tag="9" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rabbit2.png" translatesAutoresizingMaskIntoConstraints="NO" id="tib-y1-jng" userLabel="rabbit">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z8I-n7-efR" userLabel="faceDevant">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="vXH-iQ-gmn" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWd-hA-pdW">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="250"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="333"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mst-kN-MOV"/>
@@ -389,29 +397,29 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7nQ-gy-hXs" userLabel="card11">
-                                <rect key="frame" x="388" y="693" width="150" height="225"/>
+                                <rect key="frame" x="517" y="936" width="200" height="301"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ycn-2E-8Vu" userLabel="faceArriere">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dog2.png" translatesAutoresizingMaskIntoConstraints="NO" id="0VM-Te-unS" userLabel="dog">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ikg-fa-hSE" userLabel="faceDevant">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="6C0-x7-tUv" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBi-Qi-3gF">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YSx-G6-jVi"/>
@@ -422,30 +430,30 @@
                                 </subviews>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rcd-0k-iH0" userLabel="card12">
-                                <rect key="frame" x="546" y="693" width="150" height="225"/>
+                                <rect key="frame" x="728" y="936" width="200" height="301"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6oz-tY-nF1" userLabel="faceArriere">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" tag="11" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dog2.png" translatesAutoresizingMaskIntoConstraints="NO" id="0db-rV-UtF" userLabel="dog">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="har-zW-k9j" userLabel="faceDevant">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="qkS-rx-Bea" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBe-GB-pmX">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="225"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="showCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tui-bE-8VY"/>
                                                 </connections>
@@ -455,7 +463,7 @@
                                 </subviews>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cla-eq-Z0W">
-                                <rect key="frame" x="669" y="925" width="79" height="91"/>
+                                <rect key="frame" x="892" y="1234" width="105" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="RESET" image="returnicon.png"/>
                                 <connections>
@@ -518,20 +526,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-220" y="-2208"/>
+            <point key="canvasLocation" x="-189" y="-2247"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Image3.png" width="854" height="1161"/>
-        <image name="cat2.png" width="300" height="450"/>
-        <image name="dog2.png" width="150" height="200"/>
-        <image name="elephant2.png" width="150" height="200"/>
-        <image name="peppaPig2.png" width="300" height="450"/>
+        <image name="Image3.png" width="829" height="1125"/>
+        <image name="PeppaPaires.png" width="790" height="179"/>
+        <image name="cat2.png" width="1024" height="768"/>
+        <image name="dog2.png" width="1024" height="768"/>
+        <image name="elephant2.png" width="1024" height="768"/>
+        <image name="gardee.png" width="1117" height="260"/>
+        <image name="peppaPig2.png" width="1024" height="768"/>
         <image name="peppaaaaaa.png" width="668" height="1181"/>
         <image name="peppafont2.png" width="300" height="500"/>
         <image name="playbutton2.png" width="600" height="300"/>
-        <image name="rabbit2.png" width="300" height="450"/>
+        <image name="rabbit2.png" width="1024" height="768"/>
         <image name="returnicon.png" width="541" height="541"/>
-        <image name="zebra2.png" width="300" height="450"/>
+        <image name="zebra2.png" width="1024" height="768"/>
     </resources>
 </document>
